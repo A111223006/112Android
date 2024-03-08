@@ -27,4 +27,13 @@ public class MainActivity extends AppCompatActivity {
         TextView output = (TextView) findViewById(R.id.textView);
         output.setText(R.string.ini_value);
     }
+    public void redues(View view)
+    {
+        int count;
+        TextView output = (TextView) findViewById(R.id.textView);
+        count = Integer.parseInt(output.getText().toString());
+        count--;
+        output.setText(Integer.toString(count));
+    }
+
 }
