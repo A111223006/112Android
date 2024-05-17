@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AlertDialogDemo</string>
+    <color name="black">#FF000000</color>
+</resources>
